@@ -1,0 +1,80 @@
+<html>
+<head>
+<script type="text/javascript" src="validate.js"></script>
+</head>
+<body>
+<form  method="post" action="connection1.php">
+
+<table cellpadding="2" height="100%" width="100%" bgcolor="99FFFF" align="center"
+cellspacing="2">
+
+<tr>
+<td colspan=2>
+<center><font size=4><b>ADD NEW CUSTOMER</b></font></center>
+</td>
+</tr>
+
+<tr>
+<td>Name</td>
+<td><input type="text" name="name" id="textname" size="30"></td>
+</tr>
+
+
+
+
+<tr>
+<td>Personal Address</td>
+<td><input type="text" name="address"
+id="personaladdress" size="30"></td>
+</tr>
+
+
+
+<tr>
+<td>City</td>
+<td><select name="city">
+<option value="-1" selected>select..</option>
+<option value="BAREILLY">BAREILLY</option>
+<option value="BANGALORE">BANGALORE</option>
+<option value="PANAJI">PANAJI</option>
+<option value="Patna">PATNA</option>
+
+</select></td>
+</tr>
+
+
+
+<tr>
+<td>State</td>
+<td><select Name="state">
+<option value="-1" selected>select..</option>
+<option value="UTTAR PRADESH">UTTAR PRADESH</option>
+<option value="KARNATAKA">KARNATAKA</option>
+<option value="Goa">GOA</option>
+<option value="Bihar">BIHAR</option>
+</select></td>
+</tr>
+<tr>
+<td>PinCode</td>
+<td><input type="text" name="pincode" id="pincode" size="30"></td>
+
+</tr>
+<tr>
+<td>EmailId</td>
+<td><input type="text" name="emailid" id="emailid" size="30"></td>
+</tr>
+
+
+
+<tr>
+<td>PHONE No</td>
+<td><input type="tel" name="phone" id="mobileno" maxlength="10"></td>
+</tr>
+<tr>
+<td><input type="reset"></td>
+<td colspan="2"><input type="submit" value="ADD CUSTOMER" /></td>
+</tr>
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,70 @@
+#intro{ 
+    font-family:"Stencil"; 
+    color:black; 
+    font-size: 5em; 
+ 
+} 
+.image { 
+    background-image: url(http://www.vcallglobal.com/blog/wp-content/uploads/2015/06/telephone-billing-system.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    min-width: 100%; 
+    min-height: 100%; 
+ 
+} 
+ 
+.Nav_Bar ul { 
+      list-style-type: none; 
+      margin: 0  ; 
+      padding: 0; 
+      overflow: hidden; 
+  } 
+ 
+.Nav_Bar ul li {margin-left:50px; 
+    float: left; 
+} 
+ 
+a.Nav_Links:link, a.Nav_Links:visited { 
+    display: block; 
+    font-weight: bold; 
+    color: rgba(8, 1, 1, 0.99); 
+    text-align: center; 
+    padding: 4px; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+} 
+ 
+a.Nav_Links:hover, a.Nav_Links:active { 
+    background-color: #7A991A; 
+} 
+ .login ul {
+color:#ffffff;	 
+    list-style-type: none; 
+    margin: 0  ; 
+    padding: 0; 
+    overflow: hidden; 
+} 
+ 
+.login ul li {margin-bottom:50px;
+color:#ffffff; 
+    float:center; 
+} 
+ 
+a.Nav_Login:link, a.Nav_Login:visited { 
+    display: block; 
+	font-size:3em;
+    font-weight: bold; 
+    color: #000000; 
+    text-align: center; 
+    padding: 4px; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+} 
+ 
+a.Nav_Login:hover, a.Nav_Login:active { 
+    background-color: #7A991A; 
+} 
+ 
+ 
+ 
+ 
